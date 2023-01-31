@@ -1,0 +1,35 @@
+source ~/.aliases.local
+
+alias ..="pwd; cd ..; pwd; ls -lG"
+alias ]="less" # because I pipe to less all the time
+alias ddate='date "+%Y-%m-%d_%H:%M:%S"'
+alias dl="youtube-dl -x --audio-format mp3"
+alias e="vim"
+alias fished="vim ~/.fishrc"
+alias nn="nnn -adA"
+alias rmd="rm -rf"
+alias xx="tmux"
+
+## git
+alias g="git status -sb"
+alias gg="git status"
+alias ga="git add"
+alias gu="git add -u"
+alias gb="git branch"
+alias gc="git commit"
+alias gcv="git commit -v"
+alias gco="git checkout"
+alias gd="git diff"
+alias gl="git log"
+alias gll="git log --graph --oneline --all --decorate -n 25"
+alias glll="git log --graph --oneline --all --decorate"
+alias gf="git ls-tree HEAD --full-tree -r"
+alias lg="lazygit"
+alias gsu="git subupdate"
+
+##listing files
+alias l="ls -lGH"
+alias ll="ls -1"
+alias lt="ls -ltGH"
+alias la="ls -laGH"
+alias lr="ls -lRGH"

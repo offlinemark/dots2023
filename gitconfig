@@ -1,0 +1,29 @@
+[user]
+	name = Mark Mossberg
+	email = mark.mossberg@gmail.com
+[core]
+	excludesfile = /Users/mark/.gitignore
+[alias]
+    currbranch = branch --show-current
+	istashapply = checkout -p
+    fastamend = commit --amend --no-edit
+    fastcommit = commit -m \"quick commit\"
+    pullandsubupdate = !"git pull && git subupdate"
+    recentbranches = branch --sort=-committerdate
+	reuse = commit --reuse-message=ORIG_HEAD
+	softreset = reset --soft HEAD^
+    stashes = "stash list -p"
+    subupdate = submodule update --recursive --init
+[rebase]
+	autosquash = false
+[commit]
+	verbose = true
+[diff]
+	colormoved = dimmed-zebra
+	colormovedws = allow-indentation-change
+[stash]
+	showPatch = true
+[merge]
+	conflictstyle = diff3
+[push]
+	autoSetupRemote = true

@@ -1,0 +1,95 @@
+{
+    "editor.formatOnSave": true,
+    "terminal.integrated.shell.osx": "/usr/local/bin/fish",
+    "cmake.configureOnOpen": true,
+    "vim.hlsearch": true,
+    "editor.rulers": [
+        90
+    ],
+    "search.smartCase": true,
+    "editor.lineNumbers": "relative",
+    "vim.insertModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "j",
+                "k"
+            ],
+            "after": [
+                "<esc>"
+            ]
+        },
+        {
+            "before": [
+                "[",
+                "]",
+                "\\"
+            ],
+            "after": [
+                "{",
+                "<cr>",
+                "<esc>",
+                "k",
+                "o"
+            ]
+        },
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<C-h>"
+            ],
+            "after": [
+                "5",
+                "j"
+            ]
+        },
+        {
+            "before": [
+                "<C-u>"
+            ],
+            "after": [
+                "5",
+                "k"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "8"
+            ],
+            "after": [
+                "*",
+                "N"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "\\"
+            ],
+            "after": [
+                ":",
+                "n",
+                "o",
+                "h",
+                "<cr>"
+            ]
+        },
+    ],
+    "vim.leader": "<space>",
+    "editor.suggestSelection": "first",
+    "terminal.integrated.scrollback": 10000,
+    "vim.textwidth": 90,
+    "window.autoDetectColorScheme": true,
+    "files.insertFinalNewline": true,
+    "editor.minimap.enabled": false,
+    "workbench.editor.enablePreview": false,
+    "terminal.integrated.cwd": "${fileDirname}",
+    "terminal.external.osxExec": "iTerm2.app",
+    "terminal.explorerKind": "external",
+    "cSpell.enabled": false,
+    "C_mantic.headerGuard.style": "Add #pragma once",
+    "workbench.sideBar.location": "right",
+    "window.openFoldersInNewWindow": "on",
+    "workbench.startupEditor": "none"
+}
