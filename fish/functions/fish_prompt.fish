@@ -1,6 +1,7 @@
 function fish_prompt --description "Write out Marks' custom prompt"
   if set -q VIRTUAL_ENV
-    echo -n -s (set_color -b blue white) "(" (basename "$VIRTUAL_ENV") ")" (set_color normal) " "
+    # echo -n -s (set_color -b blue white) "(" (basename "$VIRTUAL_ENV") ")" (set_color normal) " "
+    echo -n -s  "[" (basename "$VIRTUAL_ENV") "]"  " "
   end
 
   set_color blue
