@@ -16,6 +16,7 @@ set -g -x TK_SILENCE_DEPRECATION 1
 set -g -x BAT_THEME "Solarized (light)"
 #set -g -x NO_COLOR 1
 set -g -x EDITOR vim
+set -g -x CMAKE_COLOR_DIAGNOSTICS ON
 set -g -x fish_greeting ""
 
 # only needed for fish_git_prompt
