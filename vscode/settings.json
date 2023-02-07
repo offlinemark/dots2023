@@ -1,6 +1,6 @@
 {
     "editor.formatOnSave": true,
-    "terminal.integrated.shell.osx": "/usr/local/bin/fish",
+    "terminal.integrated.shell.osx": "/opt/homebrew/bin/fish",
     "cmake.configureOnOpen": true,
     "vim.hlsearch": true,
     "editor.rulers": [
@@ -91,5 +91,11 @@
     "C_mantic.headerGuard.style": "Add #pragma once",
     "workbench.sideBar.location": "right",
     "window.openFoldersInNewWindow": "on",
-    "workbench.startupEditor": "none"
+    "workbench.startupEditor": "none",
+    "window.zoomLevel": -1,
+    "vim.vimrc.enable": true,
+    "cmakeFormat.args": [
+        "--dangle-parens=true"
+    ],
+    "C_Cpp.clang_format_fallbackStyle": "Microsoft"
 }

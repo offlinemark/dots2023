@@ -75,7 +75,7 @@
     "when": "editorHasDefinitionProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
   },
   {
-    "key": "ctrl+w o",
+    "key": "ctrl+cmd+o",
     "command": "workbench.action.minimizeOtherEditors"
   },
   {
@@ -296,7 +296,7 @@
     "when": "inDebugMode && !focusedSessionIsAttach"
   },
   {
-    "key": "cmd+r cmd+c",
+    "key": "alt+4",
     "command": "workbench.action.debug.continue",
     "when": "debugState == 'stopped'"
   },
@@ -326,5 +326,15 @@
   {
     "key": "ctrl+alt+s",
     "command": "workbench.action.saveWorkspaceAs"
+  },
+  {
+    "key": "alt+cmd+o",
+    "command": "C_Cpp.SwitchHeaderSource",
+    "when": "editorTextFocus && editorLangId == 'c' || editorTextFocus && editorLangId == 'cpp' || editorTextFocus && editorLangId == 'cuda-cpp'"
+  },
+  {
+    "key": "alt+o",
+    "command": "-C_Cpp.SwitchHeaderSource",
+    "when": "editorTextFocus && editorLangId == 'c' || editorTextFocus && editorLangId == 'cpp' || editorTextFocus && editorLangId == 'cuda-cpp'"
   }
 ]
